@@ -1,0 +1,142 @@
+body{
+    font-family: 'Baloo Paaji 2', cursive;
+    background-color: #12130f;
+    color: #eae6e5;
+}
+.navbar{
+    background-color: transparent!important;
+    color: #eae6e5!important;
+}
+
+.navbar a{
+    color: #eae6e5!important;
+    font-size: 30px;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+}
+
+.navbar button{
+    border-color: #EF3E36;
+    color: #EF3E36;
+}
+
+.navbar button:hover{
+    background-color: #EF3E36;
+    color: #eae6e5;
+    border-color: #EF3E36;
+}
+
+.logout-link{
+    font-size: 1rem!important;   
+    color: #ef3e36!important;
+}
+
+.logout-link:hover{
+    text-decoration: none;
+}
+
+.profile{
+    background-color: #ef3e36!important;
+    color: #eae6e5!important;
+    margin-right: 5px;
+}
+
+.profile:hover{
+    background-color: #12130f!important;
+    color: #ef3e36!important;
+}
+
+/* INDEX */
+
+.welcome-index{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align:center;
+}
+
+.welcome-index h1{
+    font-size: 70px;
+}
+
+.signin-button-index{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+    width: 10%;
+    border: none;
+    font-size: 20px;
+    display:inline-block;
+    background-color: #ef3e36;
+    color: #eae6e5;
+    border: 2px solid #ef3e36;
+}
+
+.signin-button-index:hover{
+    background-color: #12130f;
+    border: 2px solid #ef3e36;
+    transition: 0.3s ease;
+}
+
+.yourrepz-button-index{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+    width: 12%;
+    border: none;
+    font-size: 20px;
+    display:inline-block;
+    background-color: #ef3e36;
+    color: #eae6e5;
+    border: 2px solid #ef3e36;
+}
+
+.yourrepz-button-index:hover{
+    background-color: #12130f;
+    transition: 0.3s ease;
+}
+
+.signup-button-index{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 10%;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    display:inline-block;
+    background-color: #12130f;
+    color: #eae6e5;
+    border: 2px solid #ef3e36;}
+@media(max-width: 767px){
+    .signin-button-index{
+        width: 35%;
+    }
+    .signup-button-index{
+        width: 35%;
+    }
+}
+
+.signup-button-index:hover{
+    background-color: #ef3e36;
+    border: 2px solid #ef3e36;
+    transition: 0.3s ease;
+}
+
+.signin-button-index:focus{
+    outline: none;
+}
+
+.signup-button-index:focus{
+    outline:none;
+}
